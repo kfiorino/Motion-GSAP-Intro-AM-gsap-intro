@@ -3,13 +3,17 @@
 ============= */
 
 .box{
-    height: 200px;
-    width: 200px;
-    margin-bottom: 300px;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20;
 }
 
 .red-box{
     background-color: $red;
+}
+
+.yellow-box{
+    background-color: $yellow;
 }
 
 .blue-box{
