@@ -108,6 +108,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/js/demo-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dev/js/demo-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/dev/js/demo.js": {
 		"bF": 0,
 		"ft": 64,
@@ -362,17 +373,6 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
-		},
-	"/Screen Shot 2020-09-09 at 8.59.17 AM.png": {
-		"ft": 32768,
-		"iS": 22322,
-		"oA": 0,
-		"oAP": "/Screen Shot 2020-09-09 at 8.59.17 AM.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		}
 	},
 "hooks": [
