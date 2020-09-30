@@ -10,9 +10,9 @@ import {yellowBoxAnimation} from "./yellowBox.js"
 const mainTL = gsap.timeline({paused:true});
 
 mainTL.add(redBoxAnimation(), "startBoxes")
-    .add(blueBoxAnimation(), "startBoxes")
-    .addLabel("yellow")
-    .seek("yellow")
+    .add(blueBoxAnimation())
+    //.addLabel("yellow")
+    //.seek("yellow")
     .add(yellowBoxAnimation(), "startBoxes")
     .play();
 
