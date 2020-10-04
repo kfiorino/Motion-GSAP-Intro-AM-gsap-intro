@@ -1,18 +1,10 @@
-//import * as Demo from './demo.js';
+//import {gsap} from "gsap";
 
-import {gsap} from "gsap";
+import {section1Animation} from "./sections/section-1.js"
+import {section2Animation} from "./sections/section-2.js"
+import {section3Animation} from "./sections/section-3.js"
 
-import {redBoxAnimation} from "./redBox.js"
-import {blueBoxAnimation} from "./blueBox.js"
-import {yellowBoxAnimation} from "./yellowBox.js"
-//console.log(Demo);
-
-const mainTL = gsap.timeline({paused:true});
-
-mainTL.add(redBoxAnimation(), "startBoxes")
-    .add(blueBoxAnimation())
-    //.addLabel("yellow")
-    //.seek("yellow")
-    .add(yellowBoxAnimation(), "startBoxes")
-    .play();
-
+//call section 1 animation function
+section1Animation();
+section2Animation();
+section3Animation();
