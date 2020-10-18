@@ -1,18 +1,7 @@
-//import * as Demo from './demo.js';
-
 import {gsap} from "gsap";
 
-import {redBoxAnimation} from "./redBox.js"
-import {blueBoxAnimation} from "./blueBox.js"
-import {yellowBoxAnimation} from "./yellowBox.js"
-//console.log(Demo);
+import {CatSwitchAnimation} from "./demo.js"; 
 
-const mainTL = gsap.timeline({paused:true});
+const mainTL = gsap.timeline();
 
-mainTL.add(redBoxAnimation(), "startBoxes")
-    .add(blueBoxAnimation())
-    //.addLabel("yellow")
-    //.seek("yellow")
-    .add(yellowBoxAnimation(), "startBoxes")
-    .play();
-
+mainTL.add(CatSwitchAnimation{});
