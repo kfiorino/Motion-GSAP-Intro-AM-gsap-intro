@@ -4,4 +4,4 @@ import {CatSwitchAnimation} from "./demo.js";
 
 const mainTL = gsap.timeline();
 
-mainTL.add(CatSwitchAnimation{});
+mainTL.add(CatSwitchAnimation());
