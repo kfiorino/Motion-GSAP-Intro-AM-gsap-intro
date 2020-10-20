@@ -1,13 +1,14 @@
+import $ from "jquery";
+import { gsap } from "gsap";
 import { toggleAnimation } from './demo.js';
-
-console.log(Demo);
 
 var toggle = false;
 
 const mainTL = gsap.timeline({paused:true});
 mainTL.add(toggleAnimation());
 
-$("#Dog-Copy").on("click", function(){
+$("#dog-button").on("click", function(){
+    console.log("working");
     if(toggle === false){
 
         mainTL.play();
