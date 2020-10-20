@@ -1,9 +1,11 @@
 import {gsap} from "gsap";
 
-const CatSwitchTL = gsap.timeline();
-CatSwitchTL.from("#cat-img", {duration:1, ease: "none"})
-    .to("#cat-img", {duration:1, x:195, ease: "none"});
+const toggleTL = gsap.timeline();
 
-export function CatSwitchAnimation(){
-    return CatSwitchTL;
+toggleTL.to("#cat-cylinder", {duration: 1, fill:"#95D6FA"})
+    .to("#Dog-Copy", {duration: 1, fill:"#FFE5A1"});
+
+export function toggleAnimation(){
+    return toggleTL;
+
 }

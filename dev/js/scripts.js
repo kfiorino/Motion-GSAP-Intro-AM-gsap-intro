@@ -1,7 +1,20 @@
-import {gsap} from "gsap";
+import { toggleAnimation } from './demo.js';
 
-import {CatSwitchAnimation} from "./demo.js"; 
+console.log(Demo);
 
-const mainTL = gsap.timeline();
+var toggle = false;
 
-mainTL.add(CatSwitchAnimation());
+const mainTL = gsap.timeline({paused:true});
+mainTL.add(toggleAnimation());
+
+$("#Dog-Copy").on("click", function(){
+    if(toggle === false){
+
+        mainTL.play();
+        toggle = true;
+
+    }else{
+        mainTL.reverse();
+       toggle = false;
+    }
+})
