@@ -2,9 +2,9 @@ import {gsap} from "gsap";
 
 const toggleTL = gsap.timeline();
 
-toggleTL.to("#background", {duration: 0.05, fill:"#95D6FA"})
-    .to("#cat-button", {duration: 0.05, fill:"#D8D8D8"})
-    .to("#dog-button", {duration: 0.05, fill:"#3575B9"});
+toggleTL.to("#cat-cylinder", {duration: 0.5, fill:"#95D6FA"},"now")
+ .to("#dog", {duration: 0.5, fill:"#1476b8"},"now")
+ .to("#cat", {duration: 0.5, fill:"#D8D8D8"},"now");
     
 
 export function toggleAnimation(){

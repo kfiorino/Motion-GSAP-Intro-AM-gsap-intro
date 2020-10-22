@@ -7,7 +7,7 @@ var toggle = false;
 const mainTL = gsap.timeline({paused:true});
 mainTL.add(toggleAnimation());
 
-$("#dog-button").on("click", function(){
+$("#svg-demo").on("click", function(){
     console.log("working");
     if(toggle === false){
 

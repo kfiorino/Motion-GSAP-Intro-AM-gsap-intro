@@ -379,16 +379,3 @@ textarea {
 /* =============
     Demo
 ============= */
-.box {
-  height: 100px;
-  width: 100px;
-  margin-bottom: 20; }
-
-.red-box {
-  background-color: #f13232; }
-
-.yellow-box {
-  background-color: #ffb62f; }
-
-.blue-box {
-  background-color: #167cd0; }
